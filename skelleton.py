@@ -31,12 +31,12 @@ rod = cylinder(frame=boxingBag, pos=(0,50,0), axis=(0,-30,0), radius=.5,
 boxingBag.visible = False
 
 # Dummie
-nopFace = materials.texture(data=materials.loadTGA("noppel"),
+texFace = materials.texture(data=materials.loadTGA("tex"),
                      mapping="rectangular", interpolate=False)
 
 noppel = frame()
-head = sphere(frame=noppel, pos=(0,20,0), radius=15, color=(1,1,0),
-               material=nopFace,axis=(0,0,1))#materials.marble)
+head = sphere(frame=noppel, pos=(0,20,0), radius=15, color=color.white,
+               material=texFace,axis=(0,0,1))
 torso = box(frame=noppel,pos=( 0,-10,0), length=20, height=30, width=12,
             color=color.red,material=materials.blazed)
 armL = box(frame=noppel,pos=(-15,-10,0), length=5, height=20, width=5,
