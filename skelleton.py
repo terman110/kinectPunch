@@ -28,7 +28,7 @@ bag = cylinder(frame=boxingBag, pos=(0,30,0), axis=(0,-50,0), radius=10,
                color=color.red, material=materials.rough)
 rod = cylinder(frame=boxingBag, pos=(0,50,0), axis=(0,-30,0), radius=.5,
                color=color.gray(0.5), material=materials.blazed)
-boxingBag.visible = False
+#boxingBag.visible = False
 
 # Dummie
 texFace = materials.texture(data=materials.loadTGA("tex"),
@@ -59,7 +59,7 @@ footL = box(frame=noppel,pos=(-12,-47,5), length=10, height=6, width=15,
             color=color.green,material=materials.rough)
 footR = box(frame=noppel,pos=( 12,-47,5), length=10, height=6, width=15,
             color=color.green,material=materials.rough)
-#noppel.visible = False
+noppel.visible = False
 
 # Lighting
 light = frame()
