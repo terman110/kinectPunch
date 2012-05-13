@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "KinectGL", "KinectGL\KinectGL.pyproj", "{80D0ECE6-BE79-4792-BEDF-1658E009A84A}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Perspective Boxing", "KinectGL\Perspective Boxing.pyproj", "{80D0ECE6-BE79-4792-BEDF-1658E009A84A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
